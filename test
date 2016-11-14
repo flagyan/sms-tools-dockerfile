@@ -1,1 +1,5 @@
 FROM flagyan/sms-tools-dockerfile
+
+WORKDIR /projects
+
+CMD tail -f /dev/null
